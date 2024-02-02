@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test-plugin": "cd ../react-native-watch-connectivity && yarn pack && cd ../watch-example && npm install ../react-native-watch-connectivity/react-native-watch-connectivity-v1.1.1.tgz && npx expo prebuild -p ios --clean"
   },
   "dependencies": {
     "expo": "~50.0.5",
