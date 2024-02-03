@@ -11,7 +11,27 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "plugins": [["react-native-watch-connectivity", { "name": "My App Clip" }]],
+    "plugins": [
+      [
+        "react-native-watch-connectivity",
+        {
+          "devTeamId": "39L46PD99U",
+          "targets": [
+            {
+              "type": "watch",
+              "name": "watch",
+              "bundleId": "com.mpiannucci.example1.watch",
+              "displayName": "EAS WATCH",
+              "companionAppBundleId": "com.mpiannucci.example1",
+              "sourceDir": "watch",
+              "sourceFiles": ["watchApp.swift"],
+              "entitlementsFile": "watch.entitlements",
+              "frameworks": ["SwiftUI.framework"]
+            }
+          ]
+        }
+      ]
+    ],
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
