@@ -15,20 +15,10 @@
       [
         "react-native-watch-connectivity",
         {
-          "devTeamId": "39L46PD99U",
-          "targets": [
-            {
-              "type": "watch",
-              "name": "watch",
-              "bundleId": "com.mpiannucci.example1.watch",
-              "displayName": "EAS WATCH",
-              "companionAppBundleId": "com.mpiannucci.example1",
-              "sourceDir": "watch",
-              "sourceFiles": ["watchApp.swift"],
-              "entitlementsFile": "watch.entitlements",
-              "frameworks": ["SwiftUI.framework"]
-            }
-          ]
+          "name": "watch",
+          "bundleId": "com.expo.watch.example",
+          "displayName": "EAS WATCH",
+          "sourceDir": "watch"
         }
       ]
     ],
