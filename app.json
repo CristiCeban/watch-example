@@ -18,7 +18,8 @@
           "name": "watch",
           "bundleId": "com.expo.watch.example",
           "displayName": "EAS WATCH",
-          "sourceDir": "watch"
+          "sourceDir": "watch",
+          "deploymentTarget": "7.0"
         }
       ]
     ],
