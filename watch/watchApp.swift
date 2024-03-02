@@ -9,18 +9,15 @@ import SwiftUI
 
 
 struct ContentView: View {
-  
-  @AppStorage(ConnectivityUserInfoKey.text.rawValue)
-  private var text: String?
+  @ObservedObject var connectivity  = Connectivity.shared
   
     var body: some View {
-        Text("Hello from Expo! your text is: \(text ?? "")")
+      Text("Hello from Expo! your text is: \(connectivity.text ?? "")")
     }
 }
 
 @main
 struct watchApp: App {
-  let connectivity = Connectivity.shared
   
     var body: some Scene {
         WindowGroup {

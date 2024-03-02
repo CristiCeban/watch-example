@@ -12,7 +12,7 @@ enum ConnectivityUserInfoKey: String {
   case text = "text"
 }
 
-final class Connectivity: NSObject {
+final class Connectivity: NSObject, ObservableObject {
   
   @Published var text: String?
   
