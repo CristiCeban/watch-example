@@ -1,14 +1,14 @@
 {
-  "images" : [
+  "images": [
     {
-      "filename" : "playbuoy-ios-icon-blue-background.png",
-      "idiom" : "universal",
-      "platform" : "watchos",
-      "size" : "1024x1024"
+      "filename": "github.png",
+      "idiom": "universal",
+      "platform": "watchos",
+      "size": "1024x1024"
     }
   ],
-  "info" : {
-    "author" : "xcode",
-    "version" : 1
+  "info": {
+    "author": "xcode",
+    "version": 1
   }
 }
