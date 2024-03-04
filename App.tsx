@@ -13,7 +13,7 @@ async function sendMessageToWatch(message: Record<string, string>) {
   const isInstalled = await getIsWatchAppInstalled();
   if (!isInstalled) {
     Alert.alert(
-      "Watch App Not Installed",
+      "Watch App is Not Installed",
       "Please install the watch app to use this feature"
     );
     return;
