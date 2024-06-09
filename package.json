@@ -7,14 +7,14 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "test-plugin": "cd ../react-native-watch-connectivity && yarn pack && cd ../watch-example && npm install ../react-native-watch-connectivity/react-native-watch-connectivity-v1.1.0.tgz && npx expo prebuild -p ios --clean"
+    "test-plugin": "npx expo prebuild -p ios --clean"
   },
   "dependencies": {
     "expo": "~50.0.5",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.2",
-    "react-native-watch-connectivity": "file:../react-native-watch-connectivity/react-native-watch-connectivity-v1.1.0.tgz"
+    "react-native-watch-connectivity-expo": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -13,7 +13,7 @@
     },
     "plugins": [
       [
-        "react-native-watch-connectivity",
+        "react-native-watch-connectivity-expo",
         {
           "name": "watch",
           "bundleId": "com.expo.watch.example",
